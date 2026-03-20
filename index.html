@@ -166,11 +166,11 @@
                 </div>
                 <div class="solution-grid">
                     <div class="solution-card"><i class="fas fa-map-marked-alt"></i><h3>GPS + Red</h3><p>Precisión híbrida: GPS en exteriores (error <5m) y triangulación por red en interiores (fallback automático).</p></div>
-                    <div class="solution-card"><i class="fas fa-bell"></i><h3>Botón SOS</h3><p>Doble pulsación envía alerta silenciosa a contactos de emergencia y al centro de monitoreo C4 en menos de 5 segundos.</p></div>
+                    <div class="solution-card"><i class="fas fa-bell"></i><h3>Botón SOS</h3><p>Doble pulsación envía alerta silenciosa a contactos de emergencia y al centro de monitoreo C2 en menos de 5 segundos.</p></div>
                     <div class="solution-card"><i class="fas fa-draw-polygon"></i><h3>Geocercas</h3><p>Crea zonas seguras (hogar, escuela, trabajo). Notificaciones instantáneas al entrar o salir.</p></div>
                     <div class="solution-card"><i class="fas fa-bolt"></i><h3>Batería 16h</h3><p>Optimización de consumo con ESP32 y batería Li-Po de 400mAh. Carga rápida vía USB-C.</p></div>
                     <div class="solution-card"><i class="fas fa-mobile-alt"></i><h3>App nativa</h3><p>Disponible para iOS y Android. Interfaz intuitiva, mapa en tiempo real, historial de rutas y estadísticas.</p></div>
-                    <div class="solution-card"><i class="fas fa-landmark"></i><h3>Dashboard C4</h3><p>Plataforma exclusiva para cuerpos de seguridad. Despacho de unidades en menos de 10 segundos tras recibir una alerta.</p></div>
+                    <div class="solution-card"><i class="fas fa-landmark"></i><h3>Dashboard C2</h3><p>Plataforma exclusiva para cuerpos de seguridad. Despacho de unidades en menos de 10 segundos tras recibir una alerta.</p></div>
                 </div>
 
                 <!-- BOCETO PULSERA Y RUTA -->
@@ -232,7 +232,7 @@
                     <p><strong>📊 Tiempo de respuesta promedio:</strong> 4.2 segundos desde la activación del botón hasta la recepción en la app.</p>
                 </div>
                 <div class="result-quote">
-                    <p>"La alerta llegó al instante, la app es muy clara y mi familiar se siente seguro con la pulsera." — Tutora participante</p>
+                    <p>"La alerta llegó al instante, la app es muy clara y mi familiar se siente seguro con la pulsera."</p>
                 </div>
             </div>
         </section>
@@ -273,13 +273,6 @@
                             <p><strong>Pruebas de campo</strong> – Participaron 34 personas de grupos vulnerables (niños, adultos mayores, mujeres) en entornos cotidianos. Se aplicaron encuestas a tutores y se realizaron ajustes de firmware basados en feedback.</p>
                         </div>
                     </div>
-                    <div class="timeline-item">
-                        <div class="timeline-icon"><i class="fas fa-trophy"></i></div>
-                        <div class="timeline-content">
-                            <h3>Mar 2026</h3>
-                            <p><strong>Preparación Infomatrix</strong> – Documentación del proyecto, desarrollo del dashboard gubernamental, establecimiento de alianzas con cuerpos de seguridad y presentación en la UDLAP.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -294,8 +287,8 @@
                 <div class="partners-grid">
                     <div class="partner-card">
                         <i class="fas fa-shield-alt"></i>
-                        <h3>Seguridad Pública Zacapoaxtla</h3>
-                        <p>Integración del dashboard C4 para despacho de unidades en menos de 10 segundos. Capacitación a operadores y pruebas piloto en la cabecera municipal.</p>
+                        <h3>Seguridad Pública Zaragoza</h3>
+                        <p>Integración del dashboard C2 para despacho de unidades en menos de 10 segundos. Capacitación a operadores y pruebas piloto en la cabecera municipal.</p>
                     </div>
                     <div class="partner-card">
                         <i class="fas fa-building"></i>
@@ -305,7 +298,7 @@
                     <div class="partner-card">
                         <i class="fas fa-university"></i>
                         <h3>ITS Zacapoaxtla</h3>
-                        <p>Desarrollo conjunto con estudiantes de ingeniería en sistemas y electrónica. El proyecto forma parte de la incubadora de emprendimiento tecnológico.</p>
+                        <p>Se desarrollo junto el equipo del proyecto y accesor. El proyecto forma parte de la incubadora de emprendimiento tecnológico.</p>
                     </div>
                 </div>
             </div>
@@ -316,7 +309,7 @@
             <div class="container">
                 <div class="section-header">
                     <span class="section-subtitle">Plataforma para Seguridad Pública</span>
-                    <h2>Centro de Monitoreo C4 / C5</h2>
+                    <h2>Centro de Monitoreo C2</h2>
                     <p style="max-width: 700px; margin: 0 auto;">Una herramienta exclusiva para cuerpos policiales que permite visualizar en tiempo real todos los dispositivos Connect Safe activos en el municipio, gestionar alertas y optimizar tiempos de respuesta para la protección de toda la ciudadanía.</p>
                 </div>
 
@@ -329,7 +322,7 @@
                         <h3>Registro de personas vulnerables</h3>
                         <p>Los tutores pueden registrar a niños, adultos mayores, personas con discapacidad o mujeres en situación de riesgo directamente en la plataforma policial. Los datos se validan y asocian a un dispositivo Connect Safe.</p>
                         <ul class="feature-list">
-                            <li><i class="fas fa-check-circle"></i> Registro con CURP y domicilio</li>
+                            <li><i class="fas fa-check-circle"></i> Registro con ID de pulsera, nombre completo, número de celular y domicilio completo</li>
                             <li><i class="fas fa-check-circle"></i> Asignación de geocercas personalizadas</li>
                             <li><i class="fas fa-check-circle"></i> Contactos de emergencia adicionales</li>
                         </ul>
@@ -360,20 +353,6 @@
                             <li><i class="fas fa-check-circle"></i> Salida de geocerca sin previo aviso</li>
                             <li><i class="fas fa-check-circle"></i> Permanencia prolongada en una zona no habitual</li>
                             <li><i class="fas fa-check-circle"></i> Inactividad del dispositivo (batería baja o apagado)</li>
-                        </ul>
-                    </div>
-
-                    <!-- Despacho de unidades -->
-                    <div class="dashboard-card">
-                        <div class="card-icon">
-                            <i class="fas fa-car"></i>
-                        </div>
-                        <h3>Despacho de unidades</h3>
-                        <p>Al recibir una alerta, el operador puede asignar la unidad más cercana al último punto de ubicación. Todo en menos de 10 segundos.</p>
-                        <ul class="feature-list">
-                            <li><i class="fas fa-check-circle"></i> Integración con mapa de patrullas</li>
-                            <li><i class="fas fa-check-circle"></i> Comunicación directa con la unidad vía radio o app</li>
-                            <li><i class="fas fa-check-circle"></i> Registro de tiempo de respuesta para estadísticas</li>
                         </ul>
                     </div>
                 </div>
@@ -409,13 +388,13 @@
                         <div class="spec"><i class="fas fa-satellite" style="color:#7CFC00;"></i> <span><strong>GPS NEO-6M</strong> – precisión 2.5m teórica, 50 canales, actualización 1Hz.</span></div>
                         <div class="spec"><i class="fas fa-sim-card" style="color:#FF6347;"></i> <span><strong>Módulo SIM868</strong> – respaldo celular (GSM/GPRS) y funcionalidad SMS.</span></div>
                         <div class="spec"><i class="fas fa-battery-three-quarters" style="color:#32CD32;"></i> <span><strong>Li-Po 400mAh</strong> + TP4056 – carga rápida vía USB-C, duración de hasta 16 horas.</span></div>
-                        <div class="spec"><i class="fas fa-vibration" style="color:#FFA500;"></i> <span><strong>Motor vibrador 1027</strong> – feedback silencioso, confirma el envío de SOS sin alertar al agresor.</span></div>
+                        <div class="spec"><i class="fas fa-wave-square" style="color:#FFA500;"></i> <span><strong>Motor vibrador 1027</strong> – feedback silencioso, confirma el envío de SOS sin alertar al agresor.</span></div>
                         <div class="spec"><i class="fas fa-code-branch" style="color:#1E90FF;"></i> <span><strong>Firmware C++</strong> con failover GPS/red, actualizable vía OTA.</span></div>
                     </div>
                     <div class="tech-diagram">
                         <i class="fas fa-network-wired"></i>
                         <h3 style="margin:20px 0">Arquitectura IoT</h3>
-                        <p>Pulsera → Firebase → App / Dashboard C4</p>
+                        <p>Pulsera → Firebase → App / Dashboard C2</p>
                         <p style="font-size:0.9rem; opacity:0.9;">Datos cifrados extremo a extremo · Latencia promedio < 2s</p>
                     </div>
                 </div>
@@ -423,17 +402,7 @@
         </section>
 
         <!-- EQUIPO -->
-        <section class="team" id="equipo">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle">Detrás de Connect Safe</span>
-                    <h2>Equipo de desarrollo</h2>
-                </div>
-                <div class="team-grid">
-                    <div class="team-member"><img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Agustín"><h3>Agustín Peña</h3><p>Ing. Sistemas · Líder de proyecto</p></div>
-                    <div class="team-member"><img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Cristopher"><h3>Cristopher López</h3><p>Hardware IoT · Diseño de PCB</p></div>
-                    <div class="team-member"><img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Alin"><h3>Alin Juárez</h3><p>Backend & Ciencia de Datos</p></div>
-                    <div class="team-member"><img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Luis"><h3>Luis Espejo</h3><p>Asesor técnico · Especialista en IoT</p></div>
+        <section>
                 </div>
                 <p class="team-note">Instituto Tecnológico Superior de Zacapoaxtla · Infomatrix 2026 · Categoría Desarrollo de software</p>
             </div>
@@ -448,15 +417,14 @@
                 </div>
                 <div class="help-layout">
                     <div class="faq-accordion">
-                        <div class="faq-item"><button class="faq-question"><span>¿Precio y suscripción?</span><i class="fas fa-plus"></i></button><div class="faq-answer"><p>Plan mensual $199 MXN, anual $1,999 MXN (incluye pulsera y app). No hay costos ocultos.</p></div></div>
-                        <div class="faq-item"><button class="faq-question"><span>¿Resistente al agua?</span><i class="fas fa-plus"></i></button><div class="faq-answer"><p>IP67: resistente a lluvia, salpicaduras y sumersión hasta 1 metro por 30 minutos. No apta para natación prolongada.</p></div></div>
-                        <div class="faq-item"><button class="faq-question"><span>¿Botón de pánico?</span><i class="fas fa-plus"></i></button><div class="faq-answer"><p>Doble pulsación activa alerta silenciosa. Envía ubicación a contactos y al C4 si está integrado.</p></div></div>
+                        <div class="faq-item"><button class="faq-question"><span>¿Precio</span><i class="fas fa-plus"></i></button><div class="faq-answer"><p>Precio unitario por pulsera $2,291.14 MXN. No hay costos ocultos.</p></div></div>
+                        <div class="faq-item"><button class="faq-question"><span>¿Botón de pánico?</span><i class="fas fa-plus"></i></button><div class="faq-answer"><p>Doble pulsación activa alerta silenciosa. Envía ubicación a contactos y al C2 si está integrado.</p></div></div>
                         <div class="faq-item"><button class="faq-question"><span>¿Geocercas?</span><i class="fas fa-plus"></i></button><div class="faq-answer"><p>Sí, puedes definir hasta 10 zonas seguras. Recibirás notificaciones push al entrar/salir.</p></div></div>
                         <div class="faq-item"><button class="faq-question"><span>¿Qué pasa si se pierde la señal?</span><i class="fas fa-plus"></i></button><div class="faq-answer"><p>El sistema cambia automáticamente a triangulación por red móvil (fallback). La última ubicación conocida se guarda en la nube.</p></div></div>
                     </div>
                     <div class="contact-form">
                         <h3>¿Más preguntas?</h3>
-                        <div class="phone-support"><i class="fas fa-phone-alt"></i> <div><strong>Soporte 24/7</strong><a href="tel:2331162768">233-116-2768</a></div></div>
+                        <div class="phone-support"><i class="fas fa-phone-alt"></i> <div><strong>Soporte 24/7 </strong><a href="tel:2331162768">233-116-2768</a></div></div>
                         <form action="https://formspree.io/f/xrbrgrvj" method="POST">
                             <div class="form-group"><input type="text" name="nombre" placeholder="Nombre completo" required></div>
                             <div class="form-group"><input type="email" name="correo" placeholder="Correo electrónico" required></div>
@@ -476,13 +444,11 @@
                         <img src="logo.png" alt="Connect Safe">
                         <p>Tecnología mexicana para la protección de personas vulnerables. Innovación con impacto social.</p>
                         <div class="social-icons">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/share/1GRbFcJiyB/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/connectsafe02?igsh=MWNmcnZ6OGI0MWJvYg=="><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                    <div class="footer-col"><h4>Enlaces</h4><ul><li><a href="#inicio">Inicio</a></li><li><a href="#solucion">Solución</a></li><li><a href="#resultados">Resultados</a></li><li><a href="#metodologia">Metodología</a></li><li><a href="#alianzas">Alianzas</a></li><li><a href="#dashboard">Dashboard C4</a></li></ul></div>
+                    <div class="footer-col"><h4>Enlaces</h4><ul><li><a href="#inicio">Inicio</a></li><li><a href="#solucion">Solución</a></li><li><a href="#resultados">Resultados</a></li><li><a href="#metodologia">Metodología</a></li><li><a href="#alianzas">Alianzas</a></li><li><a href="#dashboard">Dashboard C2</a></li></ul></div>
                     <div class="footer-col"><h4>Legal</h4><ul><li><a href="#" id="showTermsLink">Términos y Condiciones</a></li><li><a href="#" id="showPrivacyLink">Política de Privacidad</a></li><li><a href="#">Aviso de privacidad</a></li></ul></div>
                     <div class="footer-col"><h4>Contacto</h4><ul><li><i class="fas fa-phone"></i> +52 233 116 2768</li><li><i class="fas fa-envelope"></i> info@connectsafe.com</li><li><i class="fas fa-map-marker-alt"></i> Zacapoaxtla, Puebla, México</li><li><i class="fas fa-clock"></i> Lun-Vie 9:00-18:00</li></ul></div>
                 </div>
